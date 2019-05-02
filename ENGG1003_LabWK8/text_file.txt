@@ -1,0 +1,22 @@
+int x = 5, *p;
+	p = &x;
+	x++;
+	printf("%d\n", *p);
+	(*p)++;
+	printf("%d\n", x);
+	return 0;
+
+
+/*	int x = 5;
+
+	x=x+1;
+	printf("%d\n", x);
+	x++;
+	printf("%d\n", x);
+
+	return 0;*/
+	
+	*p,*x;
+
+	p=&a;
+	x=&p;

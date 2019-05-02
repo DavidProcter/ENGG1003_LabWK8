@@ -11,25 +11,20 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int zeroInt(int *a);
+void zeroInt(int *x);
 
+int main (){
 
-int main(void) {
+	int a=15, *p;
 
-	int a=15;
+		printf("%d\n", a);
 
-	printf("Number was: %d", a); //Prints the original number
+	p=&a;
+	zeroInt(p);
 
-	zeroInt(*a);
+		printf("%d\n", a);
+		printf("%d\n", *p);
+		printf("%p\n", p);
 
-	printf("Number was: %d", a); //Prints the original number
-
-	return EXIT_SUCCESS;
-}
-
-	zeroInt(8x) {
-		int b;
-		b=*x;
-		b=b-x;
-	return b;
 	}
+
