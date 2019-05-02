@@ -8,7 +8,17 @@
  ============================================================================
  */
 
-void zeroInt(int *x){
+
+/*void zeroInt(int *x){
 	*x=0;
 	return;
+}*/
+
+void swap(int *x, int *y){
+	int temp;
+	temp=*x;
+	*x=*y;
+	*y=temp;
+	return ;
+
 }
