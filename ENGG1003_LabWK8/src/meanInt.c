@@ -1,24 +1,17 @@
 /*
  ============================================================================
- Name        : zeroInt.c
+ Name        : meanInt.c
  Author      : David Procter
  Version     : 001
  Copyright   : Copyright - David Procter
- Description : Computer Lab Week 8 Tasks, zero integer function
+ Description : Computer Lab Week 8 Tasks, mean integer function
  ============================================================================
  */
 
 
-/*void zeroInt(int *x){
-	*x=0;
+void meanInt(int *x, int *y, int *z) {
+	*x=(*x+*y+*z)/3;
+	*y=0;
+	*z=0;
 	return;
-}*/
-
-void swap(int *x, int *y){
-	int temp;
-	temp=*x;
-	*x=*y;
-	*y=temp;
-	return ;
-
 }

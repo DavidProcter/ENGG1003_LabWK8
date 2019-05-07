@@ -1,14 +1,19 @@
 /*
  ============================================================================
- Name        : zeroInt.c
+ Name        : swapInt.c
  Author      : David Procter
- Version     : 001
+ Version     : 002
  Copyright   : Copyright - David Procter
- Description : Computer Lab Week 8 Tasks, zero integer function
+ Description : Computer Lab Week 8 Tasks, swap integer function
  ============================================================================
  */
 
-void zeroInt(int *x) {
-	*x=0;
-	return;
+
+void swapInt(int *x, int *y) {
+	int temp;
+	temp=*x;
+	*x=*y;
+	*y=temp;
+	return ;
+
 }
